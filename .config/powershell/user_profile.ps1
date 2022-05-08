@@ -13,3 +13,4 @@ Set-PSReadLineOption -PredictionSource History
 # Alias
 Set-Alias vim nvim
 Set-Alias touch New-Item
+Set-Alias cp Copy-Item
