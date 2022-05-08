@@ -14,3 +14,9 @@ Set-PSReadLineOption -PredictionSource History
 Set-Alias vim nvim
 Set-Alias touch New-Item
 Set-Alias cop Copy-Item
+
+# Utilities
+function which ($command) {
+  Get-Command -Name $command -ErrorAction SilentlyContinue |
+    Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
+}
