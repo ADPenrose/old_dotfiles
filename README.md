@@ -5,11 +5,11 @@ My personal dotfiles for fish (linux) and powershell (windows).
 
 ![nvim screenshot](./images/ss-2.png)
 
-##Contents
+## Contents
 
-###For Microsoft users
+### For Microsoft users
 
-####Powershell setup
+#### Powershell setup
 
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Font aggregator, collection and patcher.
 - [Scoop](https://scoop.sh/) - A command-line installer for Windows.
@@ -19,7 +19,7 @@ My personal dotfiles for fish (linux) and powershell (windows).
 - [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/) - Module with a lot of cool stuff. Used for the autocompletition feature.
 - [z](https://www.powershellgallery.com/packages/z) - Directory jumper ported from the z bash shell script.
 
-####Neovim setup
+#### Neovim setup
 
 **WARNING: Requieres nvim version >= 0.5**
 
