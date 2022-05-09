@@ -10,6 +10,9 @@ call plug#begin('~/.vim/plugged')
 " Status bar.
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
+
+" NERDTree
+Plug 'preservim/nerdtree'
 call plug#end()
 
 " Statusbar colorscheme and info
@@ -24,3 +27,10 @@ let g:lightline = {
       \   'gitbranch': 'gitbranch#name'
       \ },
       \ }
+
+" NERDTREE config
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+nnoremap <C-n> :tabnew<CR>
+autocmd BufEnter NERD_tree_* | execute 'normal R'
