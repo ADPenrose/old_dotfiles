@@ -7,12 +7,19 @@ set sw=4
 
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
+
+" Vim icons
+Plug 'ryanoasis/vim-devicons'
+
 " Status bar.
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 
 " NERDTree
 Plug 'preservim/nerdtree'
+
+" NERDTree syntax highlight
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 call plug#end()
 
 " Statusbar colorscheme and info
@@ -29,8 +36,9 @@ let g:lightline = {
       \ }
 
 " NERDTREE config
+nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
-nnoremap <C-n> :tabnew<CR>
+nnoremap <leader>n :tabnew<CR>
 autocmd BufEnter NERD_tree_* | execute 'normal R'

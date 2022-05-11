@@ -23,8 +23,10 @@ My personal dotfiles for fish (linux) and powershell (windows).
 
 **WARNING: Requieres nvim version >= 0.5**
 
-- [Vim-plug](https://github.com/junegunn/vim-plug) - A minimalist plugin managers for vim.
-- [Lightline](https://github.com/itchyny/lightline.vim) - A configurable statusline and tabline plugin for vim.
-- [Vim-gitbranch](https://github.com/itchyny/vim-gitbranch) - Plugin that provides a function which returns the name of the current git branch. Used to integrate git branch info to the lightline statusline.
-- [NERDTree](https://github.com/preservim/nerdtree) - File system explorer for vim.
+- [Vim-plug](https://github.com/junegunn/vim-plug) - A minimalist plugin manager for vim.
+    - [Vim-devicons](https://github.com/ryanoasis/vim-devicons) - Adds filetype glyphs (icons) to various vim plugins.
+    - [Lightline](https://github.com/itchyny/lightline.vim) - A configurable statusline and tabline plugin for vim.
+    - [Vim-gitbranch](https://github.com/itchyny/vim-gitbranch) - Plugin that provides a function which returns the name of the current git branch. Used to integrate git branch info to the lightline statusline.
+    - [NERDTree](https://github.com/preservim/nerdtree) - File system explorer for vim.
+    - [Vim-NERDTree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) - Syntax highlight on file extensions for NERDTree.
 
