@@ -1,5 +1,5 @@
 # Dotfiles
-My personal dotfiles for Oh-My-Zsh (linux) and Powershell (windows).
+My personal dotfiles for Oh-My-Zsh (Linux) and Powershell (Windows).
 
 ![powershell screenshot](./images/ss-1.png)
 
